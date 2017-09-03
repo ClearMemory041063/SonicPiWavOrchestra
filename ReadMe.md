@@ -102,6 +102,7 @@ sleep 1
 
 #### But what about note duration and tempo?
 Playing with the sample command parameters, this seems to work for me. But I have a tin ear, so let me know.
+2VoiceTestrun.txt and 2VoiceTestRun.mp2
 
 ```
 samps = "c:/home/pi/samples/"
@@ -121,7 +122,8 @@ live_loop :bar do
   if(oct>2) then oct=1.0 end
 end
 ```
-Look in the 2VoiceTestrun folder for the program and an MP2 file.
+Discussion and development continues in ReadMe1.md
+
 
 
 
