@@ -1,0 +1,19 @@
+#getoactavemultiplier
+
+a=-10.0
+
+def getoctave (a)
+  b=0.0
+  if(a>0.0)
+    b=2.0**a
+  else
+    b= 1.0/2.0**-a
+  end
+  return b
+end
+
+while (a<10)
+  puts a,getoctave(a)
+  a+=1.0
+end
+
